@@ -25,7 +25,7 @@
     <link rel="alternative" href="/atom.xml" title="Snowball&#39;s Blog" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/97330394?v=4">
   
   
     <link rel="apple-touch-icon" href="/false">
@@ -34,13 +34,16 @@
   <style type="text/css">
     
     #container.show {
-      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+      background: linear-gradient(200deg,#b8b1e4,#b8b1e4);
     }
   </style>
   
 
   
 
+  
+    
+ 	  <script src="/lib/clickLove.js"></script>
   
   
 
@@ -62,6 +65,9 @@
 
 
   
+    <script src="/lib/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-minimal.css" rel="stylesheet">
+  
 
 </head>
 
@@ -72,11 +78,11 @@
       
 
 
-<div class="overlay" style="background: #0099CC;"></div>
+<div class="overlay" style="background: #0099CC;background: url('/img/biubiubiu.gif') no-repeat ;"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="/img/Logo.jpg" class="js-avatar">
+			<img src="https://avatars.githubusercontent.com/u/97330394?v=4" class="js-avatar">
 		</a>
 		<hgroup>
 			<h1 class="header-author"><a href="/">Snowball_233</a></h1>
@@ -88,9 +94,9 @@
 			
 				<li><a href="/" target="_blank">主页</a></li>
 			
-				<li><a href="https://zhousiwei.gitee.io/ibooks/" target="_blank">技术笔记</a></li>
+				<li><a href="/tags/%E6%95%B0%E5%AD%A6/" target="_blank">数学</a></li>
 			
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">随笔</a></li>
+				<li><a href="https://www.vastsea.cc/" target="_blank">瀚海工艺</a></li>
 			
 			</ul>
 		</nav>
@@ -101,7 +107,7 @@
 				
 			
 				
-					<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+					<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友情链接</a>
 				
 			
 				
@@ -134,18 +140,24 @@
 				
 			</div>
 		
+			
+			
+			
+			
+			<div>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="86" src="//music.163.com/outchain/player?type=2&id=1474400749&auto=0&height=66"></iframe>
+			</div>
+			
+				
+				<p style="font-size: 12px;">Relax and enjoy it ❤<p>
+			
+		
 		</nav>
 	</header>		
 </div>
 
     </div>
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
-      
-      
-      <a class="forkMe" style="position:absolute;z-index:999;top:0;right:0.5em;" 
-        href="https://github.com/JoeyBling/hexo-theme-yilia-plus" target="_blank">
-        <img src="/img/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
       
       
 <nav id="mobile-nav">
@@ -157,7 +169,7 @@
 		<header id="header" class="inner">
 			<div class="profilepic">
 				<a href="/">
-					<img src="/img/Logo.jpg" class="js-avatar">
+					<img src="https://avatars.githubusercontent.com/u/97330394?v=4" class="js-avatar">
 				</a>
 			</div>
 			<hgroup>
@@ -206,9 +218,9 @@
 				
 					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a target="_blank" rel="noopener" href="https://zhousiwei.gitee.io/ibooks/">技术笔记</a></li>
+					<li style="width: 33.333333333333336%"><a href="/tags/%E6%95%B0%E5%AD%A6/">数学</a></li>
 		        
-					<li style="width: 33.333333333333336%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 33.333333333333336%"><a target="_blank" rel="noopener" href="https://www.vastsea.cc/">瀚海工艺</a></li>
 		        
 				</ul>
 			</nav>
@@ -480,10 +492,10 @@
   var titleTime;
   document.addEventListener("visibilitychange", function () {
     if (document.hidden) {
-      document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+      document.title = "(つェ⊂)" + originTitle;
       clearTimeout(titleTime);
     } else {
-      document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+      document.title = "(*´∇｀*)" + originTitle;
       titleTime = setTimeout(function () {
         document.title = originTitle;
       }, 2000);
@@ -519,7 +531,7 @@
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友情链接</a></li>
       
         
       
@@ -592,52 +604,42 @@
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="https://zhousiwei.gitee.io/ibooks/" target="_blank" 
-                class="search-title" title="记录工作和学习过程中的笔记：Java、前端开发、Hexo博客、聚合支付、Linux笔记、ElasticSearch、ELK日志分析">
-                
-                  <img src="https://zhousiwei.gitee.io/ibooks/favicon.ico">
-                
-                技术笔记
-              </a>
-            </li>
-          
-            <li class="search-li">
-              <a href="https://github.com/JoeyBling" target="_blank" 
+              <a href="https://blog.hycx233.moe/" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
                 
-                GitHub
+                hycx233
               </a>
             </li>
           
             <li class="search-li">
-              <a href="https://gitee.com/zhousiwei" target="_blank" 
+              <a href="https://blog.niuboss123.com/" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
                 
-                码云
+                NiuBoss123
               </a>
             </li>
           
             <li class="search-li">
-              <a href="https://www.jianshu.com/u/02cbf31a043a" target="_blank" 
+              <a href="https://ivampiresp.com/" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
                 
-                简书
+                iVampireSP
               </a>
             </li>
           
             <li class="search-li">
-              <a href="https://blog.csdn.net/qq_30930805" target="_blank" 
+              <a href="https://bakayang.moe/" target="_blank" 
                 class="search-title" >
                 
                   <i class="icon-link icon"></i>
                 
-                CSDN
+                BakaYang
               </a>
             </li>
           
@@ -650,7 +652,7 @@
     	<section class="tools-section tools-section-me" q-show="aboutme">
         
           
-  	  		<div class="aboutme-wrap" id="aboutme">主要涉及技术：<br>Java后端开发、聚合支付、<br>公众号开发、开源爱好者、Linux<br><br>联系QQ:2434387555<br><br>很惭愧<br><br>只做了一点微小的工作<br>谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="aboutme">一个普通的高中生<br>喜欢计算机、数学<br><br>联系QQ:2957202260<br><br>大家的莅临是对我最大的支持<br><br>我深知我仍有许多不足<br>欢迎各位批评指正</div>
   	  	
     	</section>
     
