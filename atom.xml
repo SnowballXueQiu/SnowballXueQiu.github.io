@@ -3,11 +3,11 @@
   <title>Snowball&#39;s Blog</title>
   
   
-  <link href="https://snowballxueqiu.github.io/atom.xml" rel="self"/>
+  <link href="https://www.snowballnya.com/atom.xml" rel="self"/>
   
-  <link href="https://snowballxueqiu.github.io/"/>
+  <link href="https://www.snowballnya.com/"/>
   <updated>2023-04-01T15:18:22.258Z</updated>
-  <id>https://snowballxueqiu.github.io/</id>
+  <id>https://www.snowballnya.com/</id>
   
   <author>
     <name>Snowball_233</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://snowballxueqiu.github.io/hello-world/"/>
-    <id>https://snowballxueqiu.github.io/hello-world/</id>
+    <link href="https://www.snowballnya.com/hello-world/"/>
+    <id>https://www.snowballnya.com/hello-world/</id>
     <published>2023-04-01T13:06:21.772Z</published>
     <updated>2023-04-01T15:18:22.258Z</updated>
     
@@ -35,7 +35,7 @@
     
     
     
-    <category term="生活" scheme="https://snowballxueqiu.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://www.snowballnya.com/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
